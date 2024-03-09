@@ -1,0 +1,42 @@
+.learn {
+    background-color: $black;
+    height: 681px;
+    display: flex;
+    &__text-img {
+        display: flex;
+        margin: 90px 0 0 auto;
+    }
+    &__text-list, &__text-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__text-list {
+        margin: 130px -83px 0 0;
+    }
+    &__text-box {
+        width: 446px;
+        margin: 206px auto 0 -65px;
+    }
+    &__text {
+        color: $white;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.24px;
+        text-align: left;
+    }
+    &__text_grey {
+        color: #545D61;
+    }
+    &__text_big {
+        font-size: 45px;
+        line-height: 60px;
+        letter-spacing: 1.75px;
+    }
+    &__text_middle {
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+    }
+}
