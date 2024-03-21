@@ -1,0 +1,36 @@
+@import "nullstyle.scss";
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+body {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    min-width: 1206px;
+}
+
+a {color: #000;}
+
+@mixin button {
+    width: 144px;
+    border-radius: 24px;
+    padding: 10px 41px;
+}
+
+$green: #00C805;
+$white: #fff;
+$black: #000;
+$grey: #79858B;
+
+@import "blocks/header";
+@import "blocks/investing-ad";
+@import "blocks/about-us";
+@import "blocks/learn";
+@import "blocks/products";
+@import "blocks/footer";
